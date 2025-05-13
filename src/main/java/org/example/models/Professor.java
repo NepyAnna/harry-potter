@@ -15,4 +15,9 @@ public class Professor extends Character{
     public String getSubject() {
         return subject;
     }
+
+    @Override
+    public String castSpell(String spell) {
+        return "Professor, " + this.getName() + " casts " + spell + "!";
+    }
 }

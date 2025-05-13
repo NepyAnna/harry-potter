@@ -1,6 +1,6 @@
 package org.example.models;
 
-public class Character {
+public abstract class Character {
     private String name;
     private String house;
 
@@ -28,4 +28,6 @@ public class Character {
     public String introduce() {
         return "My name is " + name + " from " + house + ".";
     }
+
+    public abstract String castSpell(String spell);
 }
