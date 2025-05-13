@@ -15,4 +15,9 @@ public class Student extends Character {
     public int getYears() {
         return years;
     }
+
+    @Override
+    public String castSpell(String spell) {
+        return "Student, " + this.getName() + " csts " + spell + "!";
+    }
 }

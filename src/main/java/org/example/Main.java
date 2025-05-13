@@ -11,5 +11,7 @@ public class Main {
 
         System.out.println(harry.introduce());
         System.out.println(snape.introduce());
+        System.out.println(harry.castSpell("Luxguardian"));
+        System.out.println(snape.castSpell("Tenebris Anima"));
     }
 }
