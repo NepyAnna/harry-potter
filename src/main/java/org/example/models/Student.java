@@ -18,6 +18,6 @@ public class Student extends Character {
 
     @Override
     public String castSpell(String spell) {
-        return "Student, " + this.getName() + " csts " + spell + "!";
+        return "Student, " + this.getName() + " casts " + spell + "!";
     }
 }
