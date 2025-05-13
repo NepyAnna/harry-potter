@@ -14,5 +14,6 @@ public class Main {
         System.out.println(harry.castSpell("Luxguardian"));
         System.out.println(snape.castSpell("Tenebris Anima"));
         System.out.println(snape.grade(harry));
+        System.out.println(harry.practice("Expelliarmus"));
     }
 }
