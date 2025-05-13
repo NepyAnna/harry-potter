@@ -1,6 +1,6 @@
 package org.example.models;
 
-public class Student extends Character {
+public class Student extends Character implements Trainable{
     private int years;
 
     public Student(String name, String house, int years) {
@@ -18,6 +18,11 @@ public class Student extends Character {
 
     @Override
     public String castSpell(String spell) {
-        return "Student, " + this.getName() + " csts " + spell + "!";
+        return "Student, " + this.getName() + " casts " + spell + "!";
+    }
+
+    @Override
+    public String practice(String skill) {
+        return "Student " + this.getName() + " is practicing " + skill + ".";
     }
 }
